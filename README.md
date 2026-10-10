@@ -12,7 +12,9 @@ npm ci --cache /tmp/healthy-bhaiya-npm-cache --no-audit --no-fund
 npm run dev -- --port 5173 --strictPort
 ```
 
-First-time visitors choose a language. Return visits remember it on the same device; the language button switches it any time. The optional daily checklist stays in localStorage and resets on a new local calendar day. It still works for the current visit if storage is blocked.
+First-time visitors choose a language. Return visits remember it on the same device; the language button switches it any time. All pages are informational. There are no checklists, tasks, progress scores or health records stored on the device. Only the language preference uses localStorage; reading and navigation work when storage is blocked.
+
+Each page has a shareable route such as `#/en/food`, `#/bn/walking`, or `#/ta/diabetes`. Hash routes work on GitHub Pages without server rewrites, so direct links and refreshes avoid 404 errors. The page links, Back/Next controls and browser Back/Forward buttons use the same history. Language switching preserves the current page. Shared URLs specify their own language and take priority over a remembered preference.
 
 ## Build and validate
 
@@ -21,7 +23,7 @@ npm run build
 BROWSER_EXECUTABLE_PATH=/usr/bin/chromium npm test
 ```
 
-The browser smoke test starts and stops its own production preview on port 4180, under the GitHub Pages project path `/HealthyBhaiAnne/`. It checks all three languages and all four sections at 1440px, 390px and 320px, language switching, persisted habits, daily reset and blocked storage. Screenshots are saved in ignored `artifacts/`. On another machine, install Playwright's Chromium with `npx playwright install chromium` and run `npm test` without the executable override.
+The browser smoke test starts and stops its own production preview on port 4180, under the GitHub Pages project path `/HealthyBhaiAnne/`. It checks all three languages and four informational pages at 1440px, 390px and 320px, page URLs and refreshes, Back/Next links, browser history, language switching, shared links and blocked storage. Screenshots are saved in ignored `artifacts/`. On another machine, install Playwright's Chromium with `npx playwright install chromium` and run `npm test` without the executable override.
 
 `npm run preview -- --port 4173` serves the built output for local checks. Offline support is not included in this first version.
 

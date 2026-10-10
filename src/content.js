@@ -1,98 +1,461 @@
 export const languages = [
-  { code: 'en', native: 'English', english: 'English', greeting: 'Welcome, brother.' },
-  { code: 'bn', native: 'বাংলা', english: 'Bengali', greeting: 'স্বাগতম, ভাই।' },
-  { code: 'ta', native: 'தமிழ்', english: 'Tamil', greeting: 'வரவேற்கிறோம், அண்ணா.' },
+  {
+    "code": "en",
+    "native": "English",
+    "english": "English",
+    "greeting": "Welcome, brother."
+  },
+  {
+    "code": "bn",
+    "native": "বাংলা",
+    "english": "Bengali",
+    "greeting": "স্বাগতম, ভাই।"
+  },
+  {
+    "code": "ta",
+    "native": "தமிழ்",
+    "english": "Tamil",
+    "greeting": "வரவேற்கிறோம், அண்ணா."
+  }
 ];
 
 export const content = {
-  en: {
-    walkDuration: '5–10 min',
-    tagline: 'A little care, every day', choose: 'Feel at home. Choose your language.', chooseSub: 'Simple food and movement tips, in the language you know best.', welcome: 'YOUR HEALTH, AT YOUR PACE', intro: 'Small steps.\nBetter health.', introSub: 'You work hard. Taking care of yourself can be simple. Start with your next meal.', select: 'Choose a language', change: 'Change language', close: 'Close',
-    nav: ['Today', 'Food choices', 'After meals', 'My small plan'], navShort: ['Today', 'Food', 'Walk', 'My plan'],
-    hello: 'GOOD TO SEE YOU', title: 'A healthier day starts small.', subtitle: 'No big changes. Just a little care for yourself.', foodCta: 'Start with your next meal', walkCta: 'Try a gentle walk',
-    heroNote: 'Familiar foods. Small changes. Your pace.', plateLabel: 'YOUR EVERYDAY PLATE', plateText: 'More balance,\nnot less nourishment.', plateLegend: ['½ vegetables', '¼ protein', '¼ rice or other starch'],
-    easy: 'THREE EASY HABITS', easyTitle: 'Make your usual day a little healthier.', easySub: 'Pick one to try today. You do not need to do everything at once.',
-    cards: [
-      ['A little less rice', 'Start with a slightly smaller serving. Add vegetables and protein when available.', 'See food tips'],
-      ['Water with your meal', 'Choose water or unsweetened tea instead of sweet drinks or juice.', 'Explore drink choices'],
-      ['A short walk after eating', 'If you feel well, take an easy 5–10 minute walk. A few minutes is a good start.', 'Find your pace'],
+  "en": {
+    "walkDuration": "5–10 min",
+    "tagline": "A little care, every day",
+    "choose": "Feel at home. Choose your language.",
+    "chooseSub": "Simple food and movement tips, in the language you know best.",
+    "welcome": "YOUR HEALTH, AT YOUR PACE",
+    "intro": "Small steps.\nBetter health.",
+    "introSub": "Practical information about familiar foods, gentle movement and diabetes, for workers in Singapore.",
+    "select": "Choose a language",
+    "change": "Change language",
+    "close": "Close",
+    "nav": [
+      "Home",
+      "Food choices",
+      "After meals",
+      "Diabetes basics"
     ],
-    tiredTitle: 'Long day? Keep it gentle.', tiredText: 'Your work may already be physically demanding. Rest when you need it, and choose a small food habit on tired days.', tiredLink: 'Choose one small habit',
-    foodEyebrow: 'START WITH YOUR NEXT MEAL', foodTitle: 'Your usual foods. A little more balance.', foodSub: 'You do not have to give up rice. Make gradual changes that fit your budget and the meals available to you.',
-    tips: [
-      ['Try a little less rice', 'Take a slightly smaller serving than usual. When possible, fill the space with vegetables and a protein food, so you still get enough nourishment.'],
-      ['Add protein and vegetables', 'Try fish, eggs, tofu, chicken, beans or dal with vegetables. Dal also contains carbohydrate. Use what is affordable and available.'],
-      ['Choose your drink first', 'Water and unsweetened tea are good everyday choices. Ask for no added sugar in tea or coffee. Juice, even without added sugar, can raise blood sugar.'],
-      ['Other starches count too', 'Roti, bread, noodles and potatoes also affect blood sugar. Avoid replacing a smaller rice serving with a large portion of another starch.'],
-      ['Wholegrains when available', 'Brown rice or wholegrain bread can add fibre. Portions still matter; white rice can also fit into a balanced meal.'],
-      ['Whole fruit, instead of juice', 'Choose a modest portion of whole fruit when you want a snack. Keep water as your usual drink.'],
+    "navShort": [
+      "Home",
+      "Food",
+      "Walking",
+      "Diabetes"
     ],
-    cateredTitle: 'Meals already provided?', cateredText: 'Work with what you have. Try a little less rice if there is enough other food, choose available vegetables and protein, and drink water. Avoid going hungry or skipping meals.',
-    moveEyebrow: 'A LITTLE MOVEMENT', moveTitle: 'After a meal, take an easy walk.', moveSub: 'Gentle walking after meals can help manage blood sugar. It is one useful habit, not a guarantee against diabetes.',
-    steps: [['Check how you feel', 'If you are exhausted or unwell, rest. Choose a safe, well-lit route and comfortable footwear.'], ['Start with a few minutes', 'Try an easy 5–10 minute walk when you feel able. Keep a pace where you can comfortably talk.'], ['Make it part of your day', 'Walk with a friend, along a dormitory corridor, or on a safe route nearby. Start after one meal, when it suits you.']],
-    stopTitle: 'Know when to stop', stopText: 'Stop if you feel dizzy, shaky, sweaty, breathless or have chest pain. Get help. For severe symptoms or an emergency in Singapore, call 995. If you have a foot wound, ask a clinician before walking for exercise.',
-    planEyebrow: 'ONE SMALL START', planTitle: 'A little care for today.', planSub: 'Choose a habit that feels manageable. This checklist stays on this device and resets each day. No account needed.', planChoices: ['I chose water or an unsweetened drink.', 'I balanced my meal with vegetables and protein.', 'I took a gentle walk when I felt well.'], planProgress: 'small habits completed today', planDone: 'A small step is still a step. Well done.', reset: 'Reset today’s checklist', storageNote: 'This device could not save your checklist. You can still use it for this visit.',
-    safetyTitle: 'Already living with diabetes?', safetyText: 'Keep taking medicines as prescribed. Do not skip meals or change medicines yourself. Eating less or moving more can cause low blood sugar with insulin or some diabetes tablets. Ask your clinical team how to make changes safely.',
-    footer: 'Made with care for workers in Singapore.', review: 'General education only. This draft’s medical advice and Bengali / Tamil translations need review before community use.', sources: 'Further reading', sourceLinks: ['Singapore HealthHub', 'CDC: Type 2 diabetes prevention'], back: 'Back to today',
+    "hello": "GOOD TO SEE YOU",
+    "title": "Everyday health, made simple.",
+    "subtitle": "Clear information about food, gentle movement and diabetes.",
+    "foodCta": "Learn about food choices",
+    "walkCta": "Read about gentle walking",
+    "heroNote": "Familiar foods. Small changes. Your pace.",
+    "plateLabel": "YOUR EVERYDAY PLATE",
+    "plateText": "More balance,\nnot less nourishment.",
+    "plateLegend": [
+      "½ vegetables",
+      "¼ protein",
+      "¼ rice or other starch"
+    ],
+    "easy": "EVERYDAY HEALTH",
+    "easyTitle": "Food, drinks and gentle movement.",
+    "easySub": "How everyday choices can support your health, alongside your usual routine.",
+    "cards": [
+      [
+        "Rice and balanced portions",
+        "A little less rice, with vegetables and protein, can help balance a meal while providing enough nourishment.",
+        "Read about food"
+      ],
+      [
+        "Water and unsweetened drinks",
+        "Water and unsweetened tea avoid the added sugar found in many sweet drinks.",
+        "Read about drinks"
+      ],
+      [
+        "Walking after a meal",
+        "A short, comfortable walk after eating can help manage blood sugar when you feel well.",
+        "Read about walking"
+      ]
+    ],
+    "tiredTitle": "Rest matters after a long day.",
+    "tiredText": "Physically demanding work can already use a lot of energy. Enough food, rest and gentle movement all have a place in looking after your health.",
+    "tiredLink": "Understand diabetes",
+    "foodEyebrow": "FOOD AND NUTRITION",
+    "foodTitle": "Your usual foods. A little more balance.",
+    "foodSub": "You do not have to give up rice. Make gradual changes that fit your budget and the meals available to you.",
+    "tips": [
+      [
+        "Try a little less rice",
+        "Take a slightly smaller serving than usual. When possible, fill the space with vegetables and a protein food, so you still get enough nourishment."
+      ],
+      [
+        "Add protein and vegetables",
+        "Try fish, eggs, tofu, chicken, beans or dal with vegetables. Dal also contains carbohydrate. Use what is affordable and available."
+      ],
+      [
+        "Choose your drink first",
+        "Water and unsweetened tea are good everyday choices. Ask for no added sugar in tea or coffee. Juice, even without added sugar, can raise blood sugar."
+      ],
+      [
+        "Other starches count too",
+        "Roti, bread, noodles and potatoes also affect blood sugar. Avoid replacing a smaller rice serving with a large portion of another starch."
+      ],
+      [
+        "Wholegrains when available",
+        "Brown rice or wholegrain bread can add fibre. Portions still matter; white rice can also fit into a balanced meal."
+      ],
+      [
+        "Whole fruit, instead of juice",
+        "Choose a modest portion of whole fruit when you want a snack. Keep water as your usual drink."
+      ]
+    ],
+    "cateredTitle": "Meals already provided?",
+    "cateredText": "Work with what you have. Try a little less rice if there is enough other food, choose available vegetables and protein, and drink water. Avoid going hungry or skipping meals.",
+    "moveEyebrow": "A LITTLE MOVEMENT",
+    "moveTitle": "Walking after meals and blood sugar.",
+    "moveSub": "Gentle walking after meals can help manage blood sugar. It is one useful habit, not a guarantee against diabetes.",
+    "steps": [
+      [
+        "Comfort and safety matter",
+        "Exhaustion or illness is a reason to rest. A safe, well-lit route and comfortable footwear make gentle walking easier."
+      ],
+      [
+        "Short walks can help",
+        "An easy 5–10 minute walk after a meal can help manage blood sugar. A comfortable pace allows normal conversation. A few minutes can also be useful."
+      ],
+      [
+        "Walking can fit around daily life",
+        "A dormitory corridor or a safe nearby route may offer space for a relaxed walk with a friend. It does not need to be a demanding workout."
+      ]
+    ],
+    "stopTitle": "Know when to stop",
+    "stopText": "Stop if you feel dizzy, shaky, sweaty, breathless or have chest pain. Get help. For severe symptoms or an emergency in Singapore, call 995. If you have a foot wound, ask a clinician before walking for exercise.",
+    "safetyTitle": "Already living with diabetes?",
+    "safetyText": "Keep taking medicines as prescribed. Do not skip meals or change medicines yourself. Eating less or moving more can cause low blood sugar with insulin or some diabetes tablets. Ask your clinical team how to make changes safely.",
+    "footer": "Made with care for workers in Singapore.",
+    "review": "General education only. This draft’s medical advice and Bengali / Tamil translations need review before community use.",
+    "sources": "Further reading",
+    "sourceLinks": [
+      "Singapore HealthHub",
+      "CDC: Type 2 diabetes prevention"
+    ],
+    "mainNavigation": "Main navigation",
+    "breadcrumbs": "You are here",
+    "pageNavigation": "Page navigation",
+    "previous": "Back",
+    "next": "Next",
+    "returnHome": "Back to home",
+    "diabetesEyebrow": "UNDERSTANDING YOUR HEALTH",
+    "diabetesTitle": "Understanding type 2 diabetes.",
+    "diabetesSub": "Food and movement are part of the picture. Checkups and medical care matter too.",
+    "diabetesCards": [
+      [
+        "What is type 2 diabetes?",
+        "Blood sugar stays higher than it should because the body does not use insulin effectively or make enough of it. A blood test can detect high blood sugar even when someone feels well."
+      ],
+      [
+        "What can lower the risk?",
+        "Balanced food portions, fibre-rich foods, fewer sugary drinks and regular activity can lower the risk. Age, family history and other factors also influence risk. Healthy habits do not guarantee prevention."
+      ],
+      [
+        "Living with diabetes",
+        "Food and movement work alongside prescribed medicines and follow-up care. Changes to treatment should be discussed with the clinical team."
+      ],
+      [
+        "Why checkups matter",
+        "Diabetes may have no obvious symptoms. Frequent urination, unusual thirst, unexplained weight loss or slow-healing wounds are reasons to seek a medical checkup. A clinician can explain test results and suitable care."
+      ]
+    ]
   },
-  bn: {
-    walkDuration: '৫–১০ মিনিট',
-    tagline: 'প্রতিদিন একটু নিজের যত্ন', choose: 'নিজের ভাষা বেছে নিন।', chooseSub: 'আপনার পরিচিত ভাষায় খাবার ও চলাফেরার সহজ পরামর্শ।', welcome: 'আপনার স্বাস্থ্য, আপনার সুবিধামতো', intro: 'ছোট ছোট পদক্ষেপ।\nসুস্থ জীবনের পথে।', introSub: 'আপনি কঠোর পরিশ্রম করেন। নিজের যত্ন নেওয়া সহজ হতে পারে। পরের খাবার থেকেই শুরু করুন।', select: 'ভাষা বেছে নিন', change: 'ভাষা পরিবর্তন করুন', close: 'বন্ধ করুন',
-    nav: ['আজ', 'খাবার বেছে নিন', 'খাওয়ার পরে', 'আমার ছোট পরিকল্পনা'], navShort: ['আজ', 'খাবার', 'হাঁটা', 'পরিকল্পনা'],
-    hello: 'আপনাকে স্বাগতম', title: 'সুস্থ দিনের শুরু ছোট পদক্ষেপে।', subtitle: 'বড় পরিবর্তন নয়। নিজের জন্য একটু যত্ন।', foodCta: 'পরের খাবার থেকে শুরু করুন', walkCta: 'আস্তে একটু হাঁটুন',
-    heroNote: 'পরিচিত খাবার। ছোট পরিবর্তন। আপনার সুবিধামতো।', plateLabel: 'আপনার প্রতিদিনের খাবার', plateText: 'খাবারে ভারসাম্য,\nপর্যাপ্ত পুষ্টি।', plateLegend: ['½ শাকসবজি', '¼ প্রোটিন', '¼ ভাত বা অন্য শর্করা'],
-    easy: 'তিনটি সহজ অভ্যাস', easyTitle: 'প্রতিদিনের জীবন একটু স্বাস্থ্যকর করুন।', easySub: 'আজ একটি অভ্যাস বেছে নিন। একসঙ্গে সব করতে হবে না।',
-    cards: [
-      ['ভাত একটু কম নিন', 'স্বাভাবিকের চেয়ে একটু কম ভাত নিন। সম্ভব হলে শাকসবজি ও প্রোটিন যোগ করুন।', 'খাবারের পরামর্শ দেখুন'],
-      ['খাবারের সঙ্গে পানি', 'মিষ্টি পানীয় বা জুসের বদলে পানি বা চিনি ছাড়া চা বেছে নিন।', 'পানীয়ের পরামর্শ দেখুন'],
-      ['খাওয়ার পরে একটু হাঁটুন', 'সুস্থ বোধ করলে ধীরে ৫–১০ মিনিট হাঁটুন। কয়েক মিনিট দিয়েও শুরু করতে পারেন।', 'হাঁটার পরামর্শ দেখুন'],
+  "bn": {
+    "walkDuration": "৫–১০ মিনিট",
+    "tagline": "প্রতিদিন একটু নিজের যত্ন",
+    "choose": "নিজের ভাষা বেছে নিন।",
+    "chooseSub": "আপনার পরিচিত ভাষায় খাবার ও চলাফেরার সহজ পরামর্শ।",
+    "welcome": "আপনার স্বাস্থ্য, আপনার সুবিধামতো",
+    "intro": "ছোট ছোট পদক্ষেপ।\nসুস্থ জীবনের পথে।",
+    "introSub": "সিঙ্গাপুরের কর্মীদের জন্য পরিচিত খাবার, হালকা চলাফেরা ও ডায়াবেটিস সম্পর্কে সহজ তথ্য।",
+    "select": "ভাষা বেছে নিন",
+    "change": "ভাষা পরিবর্তন করুন",
+    "close": "বন্ধ করুন",
+    "nav": [
+      "মূল পাতা",
+      "খাবার সম্পর্কে",
+      "খাওয়ার পরে",
+      "ডায়াবেটিস সম্পর্কে"
     ],
-    tiredTitle: 'দিনের শেষে ক্লান্ত? ধীরে চলুন।', tiredText: 'আপনার কাজে অনেক শারীরিক পরিশ্রম হতে পারে। প্রয়োজনমতো বিশ্রাম নিন। ক্লান্ত দিনে খাবারের একটি ছোট অভ্যাস বেছে নিন।', tiredLink: 'একটি ছোট অভ্যাস বেছে নিন',
-    foodEyebrow: 'পরের খাবার থেকে শুরু করুন', foodTitle: 'পরিচিত খাবারে একটু বেশি ভারসাম্য।', foodSub: 'ভাত ছেড়ে দিতে হবে না। আপনার বাজেট ও যে খাবার পাওয়া যায়, তার সঙ্গে মিলিয়ে ধীরে পরিবর্তন করুন।',
-    tips: [
-      ['ভাত একটু কম নিন', 'স্বাভাবিকের চেয়ে একটু কম ভাত নিন। সম্ভব হলে তার বদলে শাকসবজি ও প্রোটিনজাত খাবার যোগ করুন, যাতে পর্যাপ্ত পুষ্টি পান।'],
-      ['প্রোটিন ও শাকসবজি যোগ করুন', 'শাকসবজির সঙ্গে মাছ, ডিম, টোফু, মুরগি, শিম বা ডাল খেতে পারেন। ডালেও শর্করা থাকে। সাধ্য ও সুযোগমতো খাবার বেছে নিন।'],
-      ['আগে পানীয় বেছে নিন', 'প্রতিদিনের জন্য পানি ও চিনি ছাড়া চা ভালো পছন্দ। চা বা কফিতে চিনি না দিতে বলুন। বাড়তি চিনি ছাড়াও জুস রক্তে শর্করা বাড়াতে পারে।'],
-      ['অন্য শর্করাও হিসাব করুন', 'রুটি, পাউরুটি, নুডলস ও আলুও রক্তে শর্করায় প্রভাব ফেলে। কম ভাতের বদলে বেশি অন্য শর্করাজাত খাবার খাবেন না।'],
-      ['সুযোগ হলে গোটা শস্য', 'বাদামি চালের ভাত বা গোটা শস্যের পাউরুটিতে আঁশ বেশি থাকতে পারে। পরিমাণও গুরুত্বপূর্ণ। সাদা ভাতও সুষম খাবারের অংশ হতে পারে।'],
-      ['জুসের বদলে আস্ত ফল', 'হালকা খাবার হিসেবে অল্প পরিমাণ আস্ত ফল বেছে নিন। সাধারণ পানীয় হিসেবে পানি পান করুন।'],
+    "navShort": [
+      "মূল পাতা",
+      "খাবার",
+      "হাঁটা",
+      "ডায়াবেটিস"
     ],
-    cateredTitle: 'খাবার আগে থেকেই দেওয়া হয়?', cateredText: 'যা পাওয়া যায়, তা দিয়েই শুরু করুন। পর্যাপ্ত অন্য খাবার থাকলে একটু কম ভাত নিন, পাওয়া শাকসবজি ও প্রোটিন বেছে নিন, পানি পান করুন। ক্ষুধার্ত থাকবেন না বা খাবার বাদ দেবেন না।',
-    moveEyebrow: 'একটু চলাফেরা', moveTitle: 'খাওয়ার পরে ধীরে একটু হাঁটুন।', moveSub: 'খাওয়ার পরে ধীরে হাঁটা রক্তে শর্করা নিয়ন্ত্রণে সাহায্য করতে পারে। এটি একটি ভালো অভ্যাস, ডায়াবেটিস না হওয়ার নিশ্চয়তা নয়।',
-    steps: [['শরীর কেমন লাগছে দেখুন', 'খুব ক্লান্ত বা অসুস্থ হলে বিশ্রাম নিন। নিরাপদ, আলো আছে এমন পথ ও আরামদায়ক জুতা বেছে নিন।'], ['কয়েক মিনিট দিয়ে শুরু করুন', 'পারলে ধীরে ৫–১০ মিনিট হাঁটুন। এমন গতিতে হাঁটুন যাতে স্বাভাবিকভাবে কথা বলতে পারেন।'], ['দিনের অভ্যাসে যোগ করুন', 'বন্ধুর সঙ্গে, ডরমিটরির করিডরে বা কাছের নিরাপদ পথে হাঁটুন। সুবিধামতো একটি খাবারের পরে শুরু করুন।']],
-    stopTitle: 'কখন থামবেন জানুন', stopText: 'মাথা ঘোরা, কাঁপুনি, ঘাম, শ্বাসকষ্ট বা বুকে ব্যথা হলে থামুন ও সাহায্য নিন। সিঙ্গাপুরে গুরুতর উপসর্গ বা জরুরি অবস্থায় ৯৯৫ নম্বরে কল করুন। পায়ে ক্ষত থাকলে ব্যায়ামের জন্য হাঁটার আগে চিকিৎসকের পরামর্শ নিন।',
-    planEyebrow: 'একটি ছোট শুরু', planTitle: 'আজ নিজের জন্য একটু যত্ন।', planSub: 'আপনার জন্য সহজ একটি অভ্যাস বেছে নিন। এই তালিকা শুধু এই ডিভাইসে থাকে এবং প্রতিদিন নতুন করে শুরু হয়। অ্যাকাউন্ট লাগে না।', planChoices: ['আমি পানি বা চিনি ছাড়া পানীয় বেছে নিয়েছি।', 'আমি খাবারে শাকসবজি ও প্রোটিন রেখেছি।', 'সুস্থ বোধ করায় আমি ধীরে একটু হেঁটেছি।'], planProgress: 'টি ছোট অভ্যাস আজ সম্পন্ন হয়েছে', planDone: 'ছোট পদক্ষেপও এগিয়ে যাওয়া। ভালো করেছেন।', reset: 'আজকের তালিকা মুছে শুরু করুন', storageNote: 'এই ডিভাইসে তালিকা সংরক্ষণ করা যাচ্ছে না। এইবার ব্যবহার করতে পারবেন।',
-    safetyTitle: 'আপনার কি ইতিমধ্যে ডায়াবেটিস আছে?', safetyText: 'নির্দেশমতো ওষুধ খান। খাবার বাদ দেবেন না বা নিজে ওষুধ বদলাবেন না। ইনসুলিন বা কিছু ডায়াবেটিসের ওষুধের সঙ্গে কম খাওয়া বা বেশি চলাফেরায় রক্তে শর্করা কমে যেতে পারে। নিরাপদ পরিবর্তনের জন্য চিকিৎসা দলের পরামর্শ নিন।',
-    footer: 'সিঙ্গাপুরের কর্মীদের জন্য যত্ন নিয়ে তৈরি।', review: 'শুধু সাধারণ শিক্ষার জন্য। ব্যবহারের আগে এই খসড়ার চিকিৎসা পরামর্শ ও বাংলা / তামিল অনুবাদ পর্যালোচনা প্রয়োজন।', sources: 'আরও পড়ুন', sourceLinks: ['সিঙ্গাপুর হেলথহাব', 'সিডিসি: টাইপ ২ ডায়াবেটিস প্রতিরোধ'], back: 'আজকের পাতায় ফিরুন',
+    "hello": "আপনাকে স্বাগতম",
+    "title": "প্রতিদিনের স্বাস্থ্য সম্পর্কে সহজ তথ্য।",
+    "subtitle": "খাবার, হালকা চলাফেরা ও ডায়াবেটিস সম্পর্কে জানুন।",
+    "foodCta": "খাবার সম্পর্কে জানুন",
+    "walkCta": "হালকা হাঁটা সম্পর্কে পড়ুন",
+    "heroNote": "পরিচিত খাবার। ছোট পরিবর্তন। আপনার সুবিধামতো।",
+    "plateLabel": "আপনার প্রতিদিনের খাবার",
+    "plateText": "খাবারে ভারসাম্য,\nপর্যাপ্ত পুষ্টি।",
+    "plateLegend": [
+      "½ শাকসবজি",
+      "¼ প্রোটিন",
+      "¼ ভাত বা অন্য শর্করা"
+    ],
+    "easy": "প্রতিদিনের স্বাস্থ্য",
+    "easyTitle": "খাবার, পানীয় ও হালকা চলাফেরা।",
+    "easySub": "আপনার দৈনন্দিন জীবনে খাবার ও চলাফেরা কীভাবে স্বাস্থ্যে সাহায্য করতে পারে।",
+    "cards": [
+      [
+        "ভাত ও খাবারের ভারসাম্য",
+        "শাকসবজি ও প্রোটিনের সঙ্গে একটু কম ভাত খাবারে ভারসাম্য আনতে পারে এবং পর্যাপ্ত পুষ্টি দিতে পারে।",
+        "খাবার সম্পর্কে পড়ুন"
+      ],
+      [
+        "পানি ও চিনি ছাড়া পানীয়",
+        "পানি ও চিনি ছাড়া চায়ে মিষ্টি পানীয়ের বাড়তি চিনি থাকে না।",
+        "পানীয় সম্পর্কে পড়ুন"
+      ],
+      [
+        "খাওয়ার পরে হাঁটা",
+        "সুস্থ বোধ করলে খাওয়ার পরে অল্প সময় আরাম করে হাঁটা রক্তে শর্করা নিয়ন্ত্রণে সাহায্য করতে পারে।",
+        "হাঁটা সম্পর্কে পড়ুন"
+      ]
+    ],
+    "tiredTitle": "দীর্ঘ কাজের দিনের পরে বিশ্রাম জরুরি।",
+    "tiredText": "কঠোর শারীরিক কাজে অনেক শক্তি খরচ হতে পারে। পর্যাপ্ত খাবার, বিশ্রাম ও হালকা চলাফেরা—সবই নিজের যত্নের অংশ।",
+    "tiredLink": "ডায়াবেটিস সম্পর্কে জানুন",
+    "foodEyebrow": "খাবার ও পুষ্টি",
+    "foodTitle": "পরিচিত খাবারে একটু বেশি ভারসাম্য।",
+    "foodSub": "ভাত ছেড়ে দিতে হবে না। আপনার বাজেট ও যে খাবার পাওয়া যায়, তার সঙ্গে মিলিয়ে ধীরে পরিবর্তন করুন।",
+    "tips": [
+      [
+        "ভাত একটু কম নিন",
+        "স্বাভাবিকের চেয়ে একটু কম ভাত নিন। সম্ভব হলে তার বদলে শাকসবজি ও প্রোটিনজাত খাবার যোগ করুন, যাতে পর্যাপ্ত পুষ্টি পান।"
+      ],
+      [
+        "প্রোটিন ও শাকসবজি যোগ করুন",
+        "শাকসবজির সঙ্গে মাছ, ডিম, টোফু, মুরগি, শিম বা ডাল খেতে পারেন। ডালেও শর্করা থাকে। সাধ্য ও সুযোগমতো খাবার বেছে নিন।"
+      ],
+      [
+        "আগে পানীয় বেছে নিন",
+        "প্রতিদিনের জন্য পানি ও চিনি ছাড়া চা ভালো পছন্দ। চা বা কফিতে চিনি না দিতে বলুন। বাড়তি চিনি ছাড়াও জুস রক্তে শর্করা বাড়াতে পারে।"
+      ],
+      [
+        "অন্য শর্করাও হিসাব করুন",
+        "রুটি, পাউরুটি, নুডলস ও আলুও রক্তে শর্করায় প্রভাব ফেলে। কম ভাতের বদলে বেশি অন্য শর্করাজাত খাবার খাবেন না।"
+      ],
+      [
+        "সুযোগ হলে গোটা শস্য",
+        "বাদামি চালের ভাত বা গোটা শস্যের পাউরুটিতে আঁশ বেশি থাকতে পারে। পরিমাণও গুরুত্বপূর্ণ। সাদা ভাতও সুষম খাবারের অংশ হতে পারে।"
+      ],
+      [
+        "জুসের বদলে আস্ত ফল",
+        "হালকা খাবার হিসেবে অল্প পরিমাণ আস্ত ফল বেছে নিন। সাধারণ পানীয় হিসেবে পানি পান করুন।"
+      ]
+    ],
+    "cateredTitle": "খাবার আগে থেকেই দেওয়া হয়?",
+    "cateredText": "যা পাওয়া যায়, তা দিয়েই শুরু করুন। পর্যাপ্ত অন্য খাবার থাকলে একটু কম ভাত নিন, পাওয়া শাকসবজি ও প্রোটিন বেছে নিন, পানি পান করুন। ক্ষুধার্ত থাকবেন না বা খাবার বাদ দেবেন না।",
+    "moveEyebrow": "একটু চলাফেরা",
+    "moveTitle": "খাওয়ার পরে হাঁটা ও রক্তে শর্করা।",
+    "moveSub": "খাওয়ার পরে ধীরে হাঁটা রক্তে শর্করা নিয়ন্ত্রণে সাহায্য করতে পারে। এটি একটি ভালো অভ্যাস, ডায়াবেটিস না হওয়ার নিশ্চয়তা নয়।",
+    "steps": [
+      [
+        "আরাম ও নিরাপত্তা জরুরি",
+        "খুব ক্লান্ত বা অসুস্থ হলে বিশ্রাম দরকার। নিরাপদ, আলো আছে এমন পথ ও আরামদায়ক জুতা হালকা হাঁটা সহজ করে।"
+      ],
+      [
+        "অল্প সময় হাঁটাও সাহায্য করতে পারে",
+        "খাওয়ার পরে ধীরে ৫–১০ মিনিট হাঁটা রক্তে শর্করা নিয়ন্ত্রণে সাহায্য করতে পারে। আরামদায়ক গতিতে স্বাভাবিকভাবে কথা বলা যায়। কয়েক মিনিট হাঁটাও উপকারী হতে পারে।"
+      ],
+      [
+        "দৈনন্দিন জীবনে হাঁটার সুযোগ",
+        "ডরমিটরির করিডর বা কাছের নিরাপদ পথে বন্ধুর সঙ্গে আরাম করে হাঁটার সুযোগ থাকতে পারে। এটি কঠিন ব্যায়াম হওয়ার প্রয়োজন নেই।"
+      ]
+    ],
+    "stopTitle": "কখন থামবেন জানুন",
+    "stopText": "মাথা ঘোরা, কাঁপুনি, ঘাম, শ্বাসকষ্ট বা বুকে ব্যথা হলে থামুন ও সাহায্য নিন। সিঙ্গাপুরে গুরুতর উপসর্গ বা জরুরি অবস্থায় ৯৯৫ নম্বরে কল করুন। পায়ে ক্ষত থাকলে ব্যায়ামের জন্য হাঁটার আগে চিকিৎসকের পরামর্শ নিন।",
+    "safetyTitle": "আপনার কি ইতিমধ্যে ডায়াবেটিস আছে?",
+    "safetyText": "নির্দেশমতো ওষুধ খান। খাবার বাদ দেবেন না বা নিজে ওষুধ বদলাবেন না। ইনসুলিন বা কিছু ডায়াবেটিসের ওষুধের সঙ্গে কম খাওয়া বা বেশি চলাফেরায় রক্তে শর্করা কমে যেতে পারে। নিরাপদ পরিবর্তনের জন্য চিকিৎসা দলের পরামর্শ নিন।",
+    "footer": "সিঙ্গাপুরের কর্মীদের জন্য যত্ন নিয়ে তৈরি।",
+    "review": "শুধু সাধারণ শিক্ষার জন্য। ব্যবহারের আগে এই খসড়ার চিকিৎসা পরামর্শ ও বাংলা / তামিল অনুবাদ পর্যালোচনা প্রয়োজন।",
+    "sources": "আরও পড়ুন",
+    "sourceLinks": [
+      "সিঙ্গাপুর হেলথহাব",
+      "সিডিসি: টাইপ ২ ডায়াবেটিস প্রতিরোধ"
+    ],
+    "mainNavigation": "প্রধান পাতাগুলি",
+    "breadcrumbs": "আপনি এখানে আছেন",
+    "pageNavigation": "পাতা পরিবর্তন",
+    "previous": "পেছনে",
+    "next": "পরের পাতা",
+    "returnHome": "মূল পাতায় ফিরুন",
+    "diabetesEyebrow": "আপনার স্বাস্থ্য সম্পর্কে জানুন",
+    "diabetesTitle": "টাইপ ২ ডায়াবেটিস সম্পর্কে জানুন।",
+    "diabetesSub": "খাবার ও চলাফেরার পাশাপাশি স্বাস্থ্য পরীক্ষা ও চিকিৎসাও গুরুত্বপূর্ণ।",
+    "diabetesCards": [
+      [
+        "টাইপ ২ ডায়াবেটিস কী?",
+        "শরীর ইনসুলিন ঠিকমতো ব্যবহার করতে না পারলে বা পর্যাপ্ত ইনসুলিন তৈরি না করলে রক্তে শর্করা স্বাভাবিকের চেয়ে বেশি থাকে। সুস্থ বোধ করলেও রক্ত পরীক্ষায় বেশি শর্করা ধরা পড়তে পারে।"
+      ],
+      [
+        "কী ঝুঁকি কমাতে পারে?",
+        "খাবারের সুষম পরিমাণ, আঁশযুক্ত খাবার, কম মিষ্টি পানীয় ও নিয়মিত চলাফেরা ঝুঁকি কমাতে পারে। বয়স, পারিবারিক ইতিহাস ও অন্য কারণও ঝুঁকিতে প্রভাব ফেলে। ভালো অভ্যাস ডায়াবেটিস না হওয়ার নিশ্চয়তা দেয় না।"
+      ],
+      [
+        "ডায়াবেটিস নিয়ে জীবন",
+        "খাবার ও চলাফেরা চিকিৎসকের দেওয়া ওষুধ এবং নিয়মিত চিকিৎসার সঙ্গে কাজ করে। চিকিৎসায় পরিবর্তন নিয়ে চিকিৎসা দলের সঙ্গে আলোচনা করা উচিত।"
+      ],
+      [
+        "স্বাস্থ্য পরীক্ষা কেন জরুরি?",
+        "ডায়াবেটিসের স্পষ্ট উপসর্গ নাও থাকতে পারে। ঘন ঘন প্রস্রাব, অতিরিক্ত তৃষ্ণা, কারণ ছাড়া ওজন কমা বা ক্ষত শুকাতে দেরি হলে স্বাস্থ্য পরীক্ষা দরকার। চিকিৎসক পরীক্ষার ফল ও উপযুক্ত চিকিৎসা বুঝিয়ে দিতে পারেন।"
+      ]
+    ]
   },
-  ta: {
-    walkDuration: '5–10 நிமிடங்கள்',
-    tagline: 'தினமும் கொஞ்சம் அக்கறை', choose: 'உங்கள் மொழியைத் தேர்ந்தெடுங்கள்.', chooseSub: 'உங்களுக்குப் பழக்கமான மொழியில் எளிய உணவு மற்றும் உடல் இயக்கக் குறிப்புகள்.', welcome: 'உங்கள் உடல்நலம், உங்கள் வசதிக்கேற்ப', intro: 'சிறிய முயற்சிகள்.\nசிறந்த உடல்நலம்.', introSub: 'நீங்கள் கடினமாக உழைக்கிறீர்கள். உங்களைப் பார்த்துக்கொள்வது எளிதாக இருக்கலாம். அடுத்த உணவிலிருந்து தொடங்குங்கள்.', select: 'மொழியைத் தேர்ந்தெடுங்கள்', change: 'மொழியை மாற்றுங்கள்', close: 'மூடு',
-    nav: ['இன்று', 'உணவுத் தேர்வுகள்', 'உணவுக்குப் பின்', 'என் சிறிய திட்டம்'], navShort: ['இன்று', 'உணவு', 'நடை', 'திட்டம்'],
-    hello: 'உங்களை வரவேற்கிறோம்', title: 'சிறிய முயற்சியில் ஆரோக்கியமான நாள்.', subtitle: 'பெரிய மாற்றங்கள் தேவையில்லை. உங்களுக்காகக் கொஞ்சம் அக்கறை.', foodCta: 'அடுத்த உணவிலிருந்து தொடங்குங்கள்', walkCta: 'மெதுவாகச் சிறிது நடக்கலாம்',
-    heroNote: 'பழக்கமான உணவுகள். சிறிய மாற்றங்கள். உங்கள் வசதிக்கேற்ப.', plateLabel: 'உங்கள் அன்றாட உணவுத் தட்டு', plateText: 'உணவில் சமநிலை,\nபோதுமான ஊட்டச்சத்து.', plateLegend: ['½ காய்கறிகள்', '¼ புரதம்', '¼ சாதம் அல்லது மாவுச்சத்து'],
-    easy: 'மூன்று எளிய பழக்கங்கள்', easyTitle: 'உங்கள் வழக்கமான நாளைச் சிறிது ஆரோக்கியமாக்குங்கள்.', easySub: 'இன்று ஒன்றை முயற்சி செய்யுங்கள். எல்லாவற்றையும் ஒரே நேரத்தில் செய்ய வேண்டியதில்லை.',
-    cards: [
-      ['சாதம் கொஞ்சம் குறைவாக', 'வழக்கத்தைவிடச் சிறிது குறைவாக எடுத்துக்கொள்ளுங்கள். கிடைத்தால் காய்கறிகளும் புரத உணவும் சேருங்கள்.', 'உணவுக் குறிப்புகளைப் பாருங்கள்'],
-      ['உணவுடன் தண்ணீர்', 'இனிப்புப் பானங்கள் அல்லது பழச்சாற்றுக்குப் பதிலாகத் தண்ணீர் அல்லது சர்க்கரை இல்லாத தேநீர் குடியுங்கள்.', 'பானங்களைத் தேர்ந்தெடுங்கள்'],
-      ['உணவுக்குப் பின் சிறிய நடை', 'நன்றாக உணர்ந்தால் மெதுவாக 5–10 நிமிடங்கள் நடக்கவும். சில நிமிடங்களிலிருந்தும் தொடங்கலாம்.', 'நடை பற்றிப் பாருங்கள்'],
+  "ta": {
+    "walkDuration": "5–10 நிமிடங்கள்",
+    "tagline": "தினமும் கொஞ்சம் அக்கறை",
+    "choose": "உங்கள் மொழியைத் தேர்ந்தெடுங்கள்.",
+    "chooseSub": "உங்களுக்குப் பழக்கமான மொழியில் எளிய உணவு மற்றும் உடல் இயக்கக் குறிப்புகள்.",
+    "welcome": "உங்கள் உடல்நலம், உங்கள் வசதிக்கேற்ப",
+    "intro": "சிறிய முயற்சிகள்.\nசிறந்த உடல்நலம்.",
+    "introSub": "சிங்கப்பூரின் தொழிலாளர்களுக்காகப் பழக்கமான உணவுகள், மெதுவான உடல் இயக்கம் மற்றும் நீரிழிவு பற்றிய எளிய தகவல்கள்.",
+    "select": "மொழியைத் தேர்ந்தெடுங்கள்",
+    "change": "மொழியை மாற்றுங்கள்",
+    "close": "மூடு",
+    "nav": [
+      "முகப்பு",
+      "உணவு பற்றி",
+      "உணவுக்குப் பின்",
+      "நீரிழிவு பற்றி"
     ],
-    tiredTitle: 'நீண்ட வேலை நாள்? மெதுவாகச் செய்யுங்கள்.', tiredText: 'உங்கள் வேலையே உடலுக்குக் கடினமானதாக இருக்கலாம். தேவைப்படும்போது ஓய்வெடுங்கள். களைப்பான நாட்களில் ஒரு சிறிய உணவுப் பழக்கத்தைத் தேர்ந்தெடுங்கள்.', tiredLink: 'ஒரு சிறிய பழக்கத்தைத் தேர்ந்தெடுங்கள்',
-    foodEyebrow: 'அடுத்த உணவிலிருந்து தொடங்குங்கள்', foodTitle: 'பழக்கமான உணவுகளில் கொஞ்சம் சமநிலை.', foodSub: 'சாதத்தை முற்றிலும் விட வேண்டியதில்லை. உங்கள் செலவுக்கும் கிடைக்கும் உணவுக்கும் ஏற்றவாறு படிப்படியாக மாற்றுங்கள்.',
-    tips: [
-      ['சாதம் சிறிது குறைவாக', 'வழக்கத்தைவிடச் சிறிது குறைவாக எடுத்துக்கொள்ளுங்கள். முடிந்தால் அந்த இடத்தில் காய்கறிகள் மற்றும் புரத உணவுகளைச் சேர்த்து, போதுமான ஊட்டச்சத்து கிடைக்கச் செய்யுங்கள்.'],
-      ['புரதமும் காய்கறிகளும் சேருங்கள்', 'காய்கறிகளுடன் மீன், முட்டை, டோஃபு, கோழி, பயறு அல்லது பருப்பு சேர்க்கலாம். பருப்பிலும் மாவுச்சத்து உள்ளது. கிடைக்கும், வாங்கக்கூடிய உணவுகளைப் பயன்படுத்துங்கள்.'],
-      ['முதலில் பானத்தைத் தேர்ந்தெடுங்கள்', 'தண்ணீரும் சர்க்கரை இல்லாத தேநீரும் நல்ல அன்றாடத் தேர்வுகள். தேநீர் அல்லது காபியில் சர்க்கரை சேர்க்க வேண்டாம் என்று கேளுங்கள். கூடுதல் சர்க்கரை இல்லாத பழச்சாறும் இரத்தச் சர்க்கரையை உயர்த்தலாம்.'],
-      ['மற்ற மாவுச்சத்து உணவுகளும் கணக்கில் வரும்', 'ரொட்டி, பிரெட், நூடுல்ஸ், உருளைக்கிழங்கு ஆகியவையும் இரத்தச் சர்க்கரையைப் பாதிக்கும். சாதத்தைக் குறைத்துவிட்டு மற்ற மாவுச்சத்து உணவுகளை அதிகமாகச் சாப்பிட வேண்டாம்.'],
-      ['கிடைத்தால் முழுத்தானியங்கள்', 'பழுப்பு அரிசி அல்லது முழுத்தானிய பிரெட் நார்ச்சத்தைச் சேர்க்கலாம். அளவும் முக்கியம். வெள்ளைச் சாதமும் சமச்சீர் உணவில் இடம்பெறலாம்.'],
-      ['பழச்சாற்றுக்குப் பதில் முழுப் பழம்', 'சிற்றுண்டியாக அளவான முழுப் பழத்தைத் தேர்ந்தெடுங்கள். வழக்கமான பானமாகத் தண்ணீர் குடியுங்கள்.'],
+    "navShort": [
+      "முகப்பு",
+      "உணவு",
+      "நடை",
+      "நீரிழிவு"
     ],
-    cateredTitle: 'உணவு வழங்கப்படுகிறதா?', cateredText: 'கிடைக்கும் உணவைக் கொண்டு தொடங்குங்கள். போதுமான மற்ற உணவு இருந்தால் சாதத்தைச் சிறிது குறைத்து, கிடைக்கும் காய்கறிகளையும் புரத உணவையும் தேர்ந்தெடுங்கள். தண்ணீர் குடியுங்கள். பசியுடன் இருக்கவோ உணவைத் தவிர்க்கவோ வேண்டாம்.',
-    moveEyebrow: 'கொஞ்சம் உடல் இயக்கம்', moveTitle: 'உணவுக்குப் பின் மெதுவாக நடக்கலாம்.', moveSub: 'உணவுக்குப் பின் மெதுவாக நடப்பது இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவும். இது பயனுள்ள ஒரு பழக்கம்; நீரிழிவு வராது என்ற உறுதி அல்ல.',
-    steps: [['உடல் எப்படி இருக்கிறது என்று பாருங்கள்', 'மிகவும் களைப்பாகவோ உடல்நலமின்றியோ இருந்தால் ஓய்வெடுங்கள். பாதுகாப்பான, வெளிச்சமுள்ள பாதையையும் வசதியான காலணியையும் தேர்ந்தெடுங்கள்.'], ['சில நிமிடங்களிலிருந்து தொடங்குங்கள்', 'முடிந்தால் மெதுவாக 5–10 நிமிடங்கள் நடக்கவும். இயல்பாகப் பேச முடியும் வேகத்தில் நடக்கவும்.'], ['அன்றாடப் பழக்கமாக்குங்கள்', 'நண்பருடன், தங்குமிட நடைபாதையில் அல்லது அருகிலுள்ள பாதுகாப்பான பாதையில் நடக்கலாம். வசதியான ஒரு உணவுக்குப் பின் தொடங்குங்கள்.']],
-    stopTitle: 'எப்போது நிறுத்த வேண்டும்', stopText: 'தலைச்சுற்றல், நடுக்கம், வியர்வை, மூச்சுத்திணறல் அல்லது நெஞ்சுவலி ஏற்பட்டால் நிறுத்தி உதவி பெறுங்கள். சிங்கப்பூரில் கடுமையான அறிகுறிகள் அல்லது அவசரநிலைக்கு 995 அழைக்கவும். பாதத்தில் காயம் இருந்தால் நடைப்பயிற்சிக்கு முன் மருத்துவரிடம் கேளுங்கள்.',
-    planEyebrow: 'ஒரு சிறிய தொடக்கம்', planTitle: 'இன்று உங்களுக்காகக் கொஞ்சம் அக்கறை.', planSub: 'உங்களால் செய்யக்கூடிய பழக்கத்தைத் தேர்ந்தெடுங்கள். இந்தப் பட்டியல் இந்தச் சாதனத்தில் மட்டுமே இருக்கும்; தினமும் புதிதாகத் தொடங்கும். கணக்கு தேவையில்லை.', planChoices: ['தண்ணீர் அல்லது சர்க்கரை இல்லாத பானத்தைத் தேர்ந்தெடுத்தேன்.', 'உணவில் காய்கறிகளும் புரதமும் சேர்த்தேன்.', 'நன்றாக உணர்ந்தபோது மெதுவாக நடந்தேன்.'], planProgress: 'சிறிய பழக்கங்கள் இன்று நிறைவு', planDone: 'சிறிய முயற்சியும் முன்னேற்றமே. நன்றாகச் செய்தீர்கள்.', reset: 'இன்றைய பட்டியலை மீட்டமை', storageNote: 'இந்தச் சாதனத்தில் பட்டியலைச் சேமிக்க முடியவில்லை. இப்போது பயன்படுத்தலாம்.',
-    safetyTitle: 'ஏற்கனவே நீரிழிவு உள்ளதா?', safetyText: 'மருத்துவர் கூறியபடி மருந்துகளை எடுத்துக்கொள்ளுங்கள். உணவைத் தவிர்க்கவோ மருந்துகளை நீங்களே மாற்றவோ வேண்டாம். இன்சுலின் அல்லது சில நீரிழிவு மாத்திரைகளுடன் குறைவாகச் சாப்பிடுவது அல்லது அதிகமாக இயங்குவது இரத்தச் சர்க்கரையைக் குறைக்கலாம். பாதுகாப்பான மாற்றங்களுக்கு மருத்துவக் குழுவிடம் கேளுங்கள்.',
-    footer: 'சிங்கப்பூரின் தொழிலாளர்களுக்காக அக்கறையுடன்.', review: 'பொதுக் கல்விக்காக மட்டும். சமூகப் பயன்பாட்டிற்கு முன் இந்த வரைவின் மருத்துவ ஆலோசனையும் வங்காள / தமிழ் மொழிபெயர்ப்புகளும் மதிப்பாய்வு செய்யப்பட வேண்டும்.', sources: 'மேலும் படிக்க', sourceLinks: ['சிங்கப்பூர் ஹெல்த்ஹப்', 'சிடிசி: வகை 2 நீரிழிவு தடுப்பு'], back: 'இன்றைய பக்கத்திற்குத் திரும்பு',
-  },
+    "hello": "உங்களை வரவேற்கிறோம்",
+    "title": "அன்றாட உடல்நலம் பற்றிய எளிய தகவல்கள்.",
+    "subtitle": "உணவு, மெதுவான உடல் இயக்கம் மற்றும் நீரிழிவு பற்றி அறியுங்கள்.",
+    "foodCta": "உணவு பற்றி அறியுங்கள்",
+    "walkCta": "மெதுவான நடை பற்றிப் படியுங்கள்",
+    "heroNote": "பழக்கமான உணவுகள். சிறிய மாற்றங்கள். உங்கள் வசதிக்கேற்ப.",
+    "plateLabel": "உங்கள் அன்றாட உணவுத் தட்டு",
+    "plateText": "உணவில் சமநிலை,\nபோதுமான ஊட்டச்சத்து.",
+    "plateLegend": [
+      "½ காய்கறிகள்",
+      "¼ புரதம்",
+      "¼ சாதம் அல்லது மாவுச்சத்து"
+    ],
+    "easy": "அன்றாட உடல்நலம்",
+    "easyTitle": "உணவு, பானங்கள் மற்றும் மெதுவான உடல் இயக்கம்.",
+    "easySub": "வழக்கமான வாழ்க்கையில் அன்றாடத் தேர்வுகள் உடல்நலத்துக்கு எப்படி உதவலாம்.",
+    "cards": [
+      [
+        "சாதமும் சமச்சீர் உணவும்",
+        "காய்கறிகள் மற்றும் புரதத்துடன் கொஞ்சம் குறைவான சாதம் உணவில் சமநிலையையும் போதுமான ஊட்டச்சத்தையும் தரலாம்.",
+        "உணவு பற்றிப் படியுங்கள்"
+      ],
+      [
+        "தண்ணீரும் சர்க்கரை இல்லாத பானங்களும்",
+        "பல இனிப்புப் பானங்களில் உள்ள கூடுதல் சர்க்கரை தண்ணீரிலும் சர்க்கரை இல்லாத தேநீரிலும் இல்லை.",
+        "பானங்கள் பற்றிப் படியுங்கள்"
+      ],
+      [
+        "உணவுக்குப் பின் நடை",
+        "நன்றாக உணரும்போது உணவுக்குப் பின் சிறிது நேரம் மெதுவாக நடப்பது இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவும்.",
+        "நடை பற்றிப் படியுங்கள்"
+      ]
+    ],
+    "tiredTitle": "நீண்ட வேலை நாளுக்குப் பின் ஓய்வு முக்கியம்.",
+    "tiredText": "கடினமான உடல் உழைப்பில் அதிக ஆற்றல் செலவாகலாம். போதுமான உணவு, ஓய்வு மற்றும் மெதுவான உடல் இயக்கம் ஆகியவை உடல்நலப் பராமரிப்பின் பகுதிகள்.",
+    "tiredLink": "நீரிழிவு பற்றி அறியுங்கள்",
+    "foodEyebrow": "உணவும் ஊட்டச்சத்தும்",
+    "foodTitle": "பழக்கமான உணவுகளில் கொஞ்சம் சமநிலை.",
+    "foodSub": "சாதத்தை முற்றிலும் விட வேண்டியதில்லை. உங்கள் செலவுக்கும் கிடைக்கும் உணவுக்கும் ஏற்றவாறு படிப்படியாக மாற்றுங்கள்.",
+    "tips": [
+      [
+        "சாதம் சிறிது குறைவாக",
+        "வழக்கத்தைவிடச் சிறிது குறைவாக எடுத்துக்கொள்ளுங்கள். முடிந்தால் அந்த இடத்தில் காய்கறிகள் மற்றும் புரத உணவுகளைச் சேர்த்து, போதுமான ஊட்டச்சத்து கிடைக்கச் செய்யுங்கள்."
+      ],
+      [
+        "புரதமும் காய்கறிகளும் சேருங்கள்",
+        "காய்கறிகளுடன் மீன், முட்டை, டோஃபு, கோழி, பயறு அல்லது பருப்பு சேர்க்கலாம். பருப்பிலும் மாவுச்சத்து உள்ளது. கிடைக்கும், வாங்கக்கூடிய உணவுகளைப் பயன்படுத்துங்கள்."
+      ],
+      [
+        "முதலில் பானத்தைத் தேர்ந்தெடுங்கள்",
+        "தண்ணீரும் சர்க்கரை இல்லாத தேநீரும் நல்ல அன்றாடத் தேர்வுகள். தேநீர் அல்லது காபியில் சர்க்கரை சேர்க்க வேண்டாம் என்று கேளுங்கள். கூடுதல் சர்க்கரை இல்லாத பழச்சாறும் இரத்தச் சர்க்கரையை உயர்த்தலாம்."
+      ],
+      [
+        "மற்ற மாவுச்சத்து உணவுகளும் கணக்கில் வரும்",
+        "ரொட்டி, பிரெட், நூடுல்ஸ், உருளைக்கிழங்கு ஆகியவையும் இரத்தச் சர்க்கரையைப் பாதிக்கும். சாதத்தைக் குறைத்துவிட்டு மற்ற மாவுச்சத்து உணவுகளை அதிகமாகச் சாப்பிட வேண்டாம்."
+      ],
+      [
+        "கிடைத்தால் முழுத்தானியங்கள்",
+        "பழுப்பு அரிசி அல்லது முழுத்தானிய பிரெட் நார்ச்சத்தைச் சேர்க்கலாம். அளவும் முக்கியம். வெள்ளைச் சாதமும் சமச்சீர் உணவில் இடம்பெறலாம்."
+      ],
+      [
+        "பழச்சாற்றுக்குப் பதில் முழுப் பழம்",
+        "சிற்றுண்டியாக அளவான முழுப் பழத்தைத் தேர்ந்தெடுங்கள். வழக்கமான பானமாகத் தண்ணீர் குடியுங்கள்."
+      ]
+    ],
+    "cateredTitle": "உணவு வழங்கப்படுகிறதா?",
+    "cateredText": "கிடைக்கும் உணவைக் கொண்டு தொடங்குங்கள். போதுமான மற்ற உணவு இருந்தால் சாதத்தைச் சிறிது குறைத்து, கிடைக்கும் காய்கறிகளையும் புரத உணவையும் தேர்ந்தெடுங்கள். தண்ணீர் குடியுங்கள். பசியுடன் இருக்கவோ உணவைத் தவிர்க்கவோ வேண்டாம்.",
+    "moveEyebrow": "கொஞ்சம் உடல் இயக்கம்",
+    "moveTitle": "உணவுக்குப் பின் நடையும் இரத்தச் சர்க்கரையும்.",
+    "moveSub": "உணவுக்குப் பின் மெதுவாக நடப்பது இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவும். இது பயனுள்ள ஒரு பழக்கம்; நீரிழிவு வராது என்ற உறுதி அல்ல.",
+    "steps": [
+      [
+        "வசதியும் பாதுகாப்பும் முக்கியம்",
+        "மிகவும் களைப்பாகவோ உடல்நலமின்றியோ இருந்தால் ஓய்வு தேவை. பாதுகாப்பான, வெளிச்சமுள்ள பாதையும் வசதியான காலணியும் மெதுவாக நடப்பதை எளிதாக்கும்."
+      ],
+      [
+        "சிறிய நடையும் உதவலாம்",
+        "உணவுக்குப் பின் மெதுவாக 5–10 நிமிடங்கள் நடப்பது இரத்தச் சர்க்கரையைக் கட்டுப்படுத்த உதவும். வசதியான வேகத்தில் இயல்பாகப் பேச முடியும். சில நிமிடங்களும் பயனுள்ளதாக இருக்கலாம்."
+      ],
+      [
+        "அன்றாட வாழ்க்கையில் நடை",
+        "தங்குமிட நடைபாதை அல்லது அருகிலுள்ள பாதுகாப்பான பாதையில் நண்பருடன் மெதுவாக நடக்க இடம் இருக்கலாம். இது கடினமான உடற்பயிற்சியாக இருக்க வேண்டியதில்லை."
+      ]
+    ],
+    "stopTitle": "எப்போது நிறுத்த வேண்டும்",
+    "stopText": "தலைச்சுற்றல், நடுக்கம், வியர்வை, மூச்சுத்திணறல் அல்லது நெஞ்சுவலி ஏற்பட்டால் நிறுத்தி உதவி பெறுங்கள். சிங்கப்பூரில் கடுமையான அறிகுறிகள் அல்லது அவசரநிலைக்கு 995 அழைக்கவும். பாதத்தில் காயம் இருந்தால் நடைப்பயிற்சிக்கு முன் மருத்துவரிடம் கேளுங்கள்.",
+    "safetyTitle": "ஏற்கனவே நீரிழிவு உள்ளதா?",
+    "safetyText": "மருத்துவர் கூறியபடி மருந்துகளை எடுத்துக்கொள்ளுங்கள். உணவைத் தவிர்க்கவோ மருந்துகளை நீங்களே மாற்றவோ வேண்டாம். இன்சுலின் அல்லது சில நீரிழிவு மாத்திரைகளுடன் குறைவாகச் சாப்பிடுவது அல்லது அதிகமாக இயங்குவது இரத்தச் சர்க்கரையைக் குறைக்கலாம். பாதுகாப்பான மாற்றங்களுக்கு மருத்துவக் குழுவிடம் கேளுங்கள்.",
+    "footer": "சிங்கப்பூரின் தொழிலாளர்களுக்காக அக்கறையுடன்.",
+    "review": "பொதுக் கல்விக்காக மட்டும். சமூகப் பயன்பாட்டிற்கு முன் இந்த வரைவின் மருத்துவ ஆலோசனையும் வங்காள / தமிழ் மொழிபெயர்ப்புகளும் மதிப்பாய்வு செய்யப்பட வேண்டும்.",
+    "sources": "மேலும் படிக்க",
+    "sourceLinks": [
+      "சிங்கப்பூர் ஹெல்த்ஹப்",
+      "சிடிசி: வகை 2 நீரிழிவு தடுப்பு"
+    ],
+    "mainNavigation": "முக்கிய பக்கங்கள்",
+    "breadcrumbs": "நீங்கள் இருக்கும் பக்கம்",
+    "pageNavigation": "பக்க வழிசெலுத்தல்",
+    "previous": "பின்செல்",
+    "next": "அடுத்து",
+    "returnHome": "முகப்புக்குத் திரும்பு",
+    "diabetesEyebrow": "உங்கள் உடல்நலம் பற்றி",
+    "diabetesTitle": "வகை 2 நீரிழிவைப் புரிந்துகொள்ளுங்கள்.",
+    "diabetesSub": "உணவும் உடல் இயக்கமும் ஒரு பகுதி. உடல்நலப் பரிசோதனைகளும் மருத்துவப் பராமரிப்பும் முக்கியம்.",
+    "diabetesCards": [
+      [
+        "வகை 2 நீரிழிவு என்றால் என்ன?",
+        "உடல் இன்சுலினைச் சரியாகப் பயன்படுத்தாதபோது அல்லது போதுமான அளவு உற்பத்தி செய்யாதபோது இரத்தச் சர்க்கரை இயல்பைவிட அதிகமாக இருக்கும். நன்றாக உணர்ந்தாலும் இரத்தப் பரிசோதனையில் அதிக சர்க்கரை தெரியலாம்."
+      ],
+      [
+        "எது அபாயத்தைக் குறைக்கலாம்?",
+        "சமச்சீர் உணவு அளவுகள், நார்ச்சத்து உணவுகள், குறைவான இனிப்புப் பானங்கள் மற்றும் வழக்கமான உடல் இயக்கம் அபாயத்தைக் குறைக்கலாம். வயது, குடும்ப வரலாறு மற்றும் பிற காரணிகளும் பாதிக்கும். ஆரோக்கியமான பழக்கங்கள் நீரிழிவு வராது என்ற உறுதி அல்ல."
+      ],
+      [
+        "நீரிழிவுடன் வாழ்வது",
+        "உணவும் உடல் இயக்கமும் மருத்துவர் பரிந்துரைத்த மருந்துகள் மற்றும் தொடர் பராமரிப்புடன் இணைந்து உதவுகின்றன. சிகிச்சை மாற்றங்களை மருத்துவக் குழுவுடன் ஆலோசிக்க வேண்டும்."
+      ],
+      [
+        "பரிசோதனைகள் ஏன் முக்கியம்?",
+        "நீரிழிவிற்கு வெளிப்படையான அறிகுறிகள் இல்லாமல் இருக்கலாம். அடிக்கடி சிறுநீர் கழித்தல், அதிக தாகம், காரணமின்றி எடை குறைதல் அல்லது காயங்கள் மெதுவாக ஆறுதல் ஆகியவற்றிற்கு மருத்துவப் பரிசோதனை தேவை. மருத்துவர் முடிவுகளையும் பொருத்தமான பராமரிப்பையும் விளக்கலாம்."
+      ]
+    ]
+  }
 };
